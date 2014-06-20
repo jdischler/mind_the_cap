@@ -28,6 +28,7 @@ Ext.define('MC.view.MainViewport', {
 					type: 'vbox',
 					align: 'center'
 				},
+				style: 'background-image:url(app/images/bg.jpg); background-size:cover; background-repeat:no-repeat;background-attachment:fixed;background-position: center top;',
 				items: [{
 					xtype: 'container',
 					layout: 'column',
@@ -45,7 +46,6 @@ Ext.define('MC.view.MainViewport', {
 							title: 'This will be the factory panel',
 							height: 700,
 							layout: 'fit',
-							bodyPadding: 5,
 							// Add a button to allow adding a new facility...
 							//--------------------------------------------------------------------------
 							tools:[{
